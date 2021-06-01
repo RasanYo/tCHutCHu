@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Options">
+   <children>
+      <Text layoutX="97.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Volume: ">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <Slider layoutX="306.0" layoutY="155.0" />
+      <Text layoutX="97.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Music:">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <RadioButton layoutX="128.0" layoutY="88.0" mnemonicParsing="false" text="Default" />
+      <RadioButton layoutX="312.0" layoutY="88.0" mnemonicParsing="false" text="Custom:" />
+      <TextField layoutX="343.0" layoutY="113.0" />
+      <Text layoutX="306.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="URL:">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Text>
+      <ColorPicker layoutX="315.0" layoutY="227.0" />
+      <Text layoutX="99.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thèmes:">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

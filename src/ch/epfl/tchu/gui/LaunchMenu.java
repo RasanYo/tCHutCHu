@@ -36,7 +36,7 @@ import static javafx.application.Platform.isFxApplicationThread;
 public class LaunchMenu {
 
     private static String ownName;
-    private ObjectProperty<MediaPlayer> musicPlayer = new SimpleObjectProperty();
+    private final ObjectProperty<MediaPlayer> musicPlayer = new SimpleObjectProperty<>();
     private final MediaPlayer ZELDA_EASTER_EGG_MUSIC =
             new MediaPlayer(
                     new Media(getClass().getResource("/LOZ_Secret.wav").toURI().toString()));
